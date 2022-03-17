@@ -22,9 +22,20 @@
     background: #9575cd;
     color: floralwhite;
 }
-
-.address {
+/*  The dot in front of the name is to select a class. e.g. class="footer"
+    But no dot is to select a html element. <address>
+*/
+address {
     font-size: 80%;
     margin: 0px auto;
     color: #0f0f0f;
+}
+
+body {
+    padding: 50px 0px 0px 0px;
+    z-index: 0;
+}
+
+.navbar-dark {
+    background-color: #512da8;
 }
